@@ -11,8 +11,8 @@ from telegram.ext import (
 # ======================
 # CONFIG (ENV VARIABLES)
 # ======================
-BOT_TOKEN = os.getenv("7787034129:AAG2-v2n-qaCFz_mJow5xI4Q6OT5tcl3E-o")
-API_KEY = os.getenv("3904efcbaad8439b8b1fa5353629d031")
+BOT_TOKEN = os.getenv("TOKEN")
+API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://api.twelvedata.com/price"
 
 ACCOUNT_BALANCE = 1000  # default balance
